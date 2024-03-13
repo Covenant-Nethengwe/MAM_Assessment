@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{FA2A3278-5E9E-446C-BC97-D9044C73DA68}|Default">
+  <MonoDevelop.Ide.ItemProperties.MAM__Assessment PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MAM_Assessment/Product.cs">
+    <Files>
+      <File FileName="MAM_Assessment/Product.cs" Line="70" Column="30" />
+      <File FileName="MAM_Assessment/Program.cs" Line="32" Column="32" />
+      <File FileName="MAM_Assessment/IProduct.cs" Line="10" Column="41" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

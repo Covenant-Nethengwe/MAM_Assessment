@@ -1,0 +1,6 @@
+/home/covey/Projects/MAM_Assessment/MAM_Assessment/bin/Debug/MAM_Assessment.exe
+/home/covey/Projects/MAM_Assessment/MAM_Assessment/bin/Debug/MAM_Assessment.pdb
+/home/covey/Projects/MAM_Assessment/MAM_Assessment/obj/x86/Debug/MAM_Assessment.csproj.AssemblyReference.cache
+/home/covey/Projects/MAM_Assessment/MAM_Assessment/obj/x86/Debug/MAM_Assessment.csproj.CoreCompileInputs.cache
+/home/covey/Projects/MAM_Assessment/MAM_Assessment/obj/x86/Debug/MAM_Assessment.exe
+/home/covey/Projects/MAM_Assessment/MAM_Assessment/obj/x86/Debug/MAM_Assessment.pdb
