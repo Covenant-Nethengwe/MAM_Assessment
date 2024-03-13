@@ -9,24 +9,24 @@ namespace MAM_Assessment
         {
             List<Product> products1 = new List<Product>
             {
-                new Book(12.49, "Book at:", 1),
-                new Entertainment(14.99, "Music CD at:", 1),
-                new Food(0.85, "Chocolate bar at:", 1),
+                new Book((decimal)12.49, "Book at:", 1),
+                new Entertainment((decimal)14.99, "Music CD at:", 1),
+                new Food((decimal)0.85, "Chocolate bar at:", 1),
 
             };
 
             List<Product> products2 = new List<Product>
             {
-                new Food(10.00, "Imported box of chocolates at:", 1),
-                new Cosmetics(47.50, "Imported bottle of perfume at:", 1),
+                new Food((decimal)10.00, "Imported box of chocolates at:", 1),
+                new Cosmetics((decimal)47.50, "Imported bottle of perfume at:", 1),
             };
 
             List<Product> product3 = new List<Product>
             {
-                new Cosmetics(27.99, "Imported bottle of perfume at:", 1),
-                new Cosmetics(18.99, "Bottle of perfume at:", 1),
-                new Madical(9.75, "Packet of paracetamol at:", 1),
-                new Food(11.25, "Box of imported chocolates at:", 1),
+                new Cosmetics((decimal)27.99, "Imported bottle of perfume at:", 1),
+                new Cosmetics((decimal)18.99, "Bottle of perfume at:", 1),
+                new Madical((decimal)9.75, "Packet of paracetamol at:", 1),
+                new Food((decimal)11.25, "Box of imported chocolates at:", 1),
             };
 
             Product p = new Product();

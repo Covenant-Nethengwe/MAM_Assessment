@@ -8,15 +8,15 @@ namespace MAM_Assessment
         private readonly int tax = 10;
         private readonly int importTax = 5;
 
-        double price;
+        decimal price;
         int quantity;
         string description;
 
-        double Price { get => price; set => price = value; }
+        decimal Price { get => price; set => price = value; }
         string Description { get => description; set => description = value; }
         int Quantity { get => quantity; set => quantity = value; }
 
-        public Product(double price, string description, int quantity)
+        public Product(decimal price, string description, int quantity)
         {
             Price = price;
             Description = description;
@@ -33,15 +33,15 @@ namespace MAM_Assessment
         /// </summary>
         /// <returns>The total tax.</returns>
         /// <param name="price">Price.</param>
-        public double CalculateTotalTax(double price)
+        public decimal CalculateTotalTax(decimal price)
         {
-            double totalTax = 0;
+            decimal totalTax = 0;
 
-            double taxValue = (price * tax) / 100;
-            double roundOff = taxValue / 0.05;
-            double wholeNumber = (double)Math.Round((decimal)roundOff, MidpointRounding.AwayFromZero);
+            decimal taxValue = (price * tax) / 100;
+            decimal roundOff = taxValue / (decimal)0.05;
+            decimal wholeNumber = (decimal)Math.Round((decimal)roundOff, MidpointRounding.AwayFromZero);
 
-            totalTax = wholeNumber * 0.05;
+            totalTax = wholeNumber * (decimal)0.05;
 
 
             return totalTax;
@@ -52,15 +52,15 @@ namespace MAM_Assessment
         /// </summary>
         /// <returns>The import tax.</returns>
         /// <param name="price">Price.</param>
-        public double CalculateImportTax(double price)
+        public decimal CalculateImportTax(decimal price)
         {
-            double totalTax = 0;
+            decimal totalTax = 0;
 
-            double taxValue = (price * importTax) / 100;
-            double roundOff = taxValue / 0.05;
-            double wholeNumber = (double)Math.Round((decimal)roundOff, MidpointRounding.AwayFromZero);
+            decimal taxValue = (price * importTax) / 100;
+            decimal roundOff = taxValue / (decimal)0.05;
+            decimal wholeNumber = (decimal)Math.Round((decimal)roundOff, MidpointRounding.AwayFromZero);
 
-            totalTax = wholeNumber * 0.05;
+            totalTax = wholeNumber * (decimal)0.05;
 
 
             return totalTax;
@@ -71,15 +71,15 @@ namespace MAM_Assessment
         /// </summary>
         /// <returns>The total import tax.</returns>
         /// <param name="price">Price.</param>
-        public double CalculateTotalImportTax(double price)
+        public decimal CalculateTotalImportTax(decimal price)
         {
-            double totalTax = 0;
+            decimal totalTax = 0;
 
-            double taxValue = (price * (tax + importTax)) / 100;
-            double roundOff = taxValue / 0.05;
+            decimal taxValue = (price * (tax + importTax)) / 100;
+            decimal roundOff = taxValue / (decimal)0.05;
             int wholeNumber = (int)Math.Round((decimal)roundOff, MidpointRounding.AwayFromZero);
 
-            totalTax = wholeNumber * 0.05;
+            totalTax = wholeNumber * (decimal)0.05;
 
 
             return totalTax;
@@ -91,10 +91,10 @@ namespace MAM_Assessment
         /// <param name="products">Products.</param>
         public void DisplayProducts(List<Product> products)
         {
-            double totalPrice = 0;
-            double importTotalTax = 0;
-            double importTaxTaxed = 0;
-            double totalTax = 0;
+            decimal totalPrice = 0;
+            decimal importTotalTax = 0;
+            decimal importTaxTaxed = 0;
+            decimal totalTax = 0;
 
             foreach (Product product in products)
             {

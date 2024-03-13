@@ -2,10 +2,26 @@
   <MonoDevelop.Ide.ItemProperties.MAM__Assessment PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="MAM_Assessment/Product.cs">
     <Files>
-      <File FileName="MAM_Assessment/Product.cs" Line="70" Column="30" />
-      <File FileName="MAM_Assessment/Program.cs" Line="32" Column="32" />
-      <File FileName="MAM_Assessment/IProduct.cs" Line="10" Column="41" />
+      <File FileName="MAM_Assessment/Product.cs" Line="41" Column="32" />
+      <File FileName="MAM_Assessment/Program.cs" Line="28" Column="38" />
+      <File FileName="MAM_Assessment/IProduct.cs" Line="8" Column="16" />
+      <File FileName="MAM_Assessment/Entertainment.cs" Line="12" Column="1" />
+      <File FileName="MAM_Assessment/Cosmetics.cs" Line="12" Column="1" />
+      <File FileName="MAM_Assessment/Madical.cs" Line="10" Column="6" />
+      <File FileName="MAM_Assessment/Book.cs" Line="12" Column="1" />
+      <File FileName="MAM_Assessment/Food.cs" Line="12" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MAM_Assessment" expanded="True">
+            <Node name="MAM_Assessment" expanded="True">
+              <Node name="Product.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
